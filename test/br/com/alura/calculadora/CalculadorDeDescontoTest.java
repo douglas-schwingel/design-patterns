@@ -1,5 +1,6 @@
 package br.com.alura.calculadora;
 
+import br.com.alura.calculadora.desconto.CalculadorDeDesconto;
 import org.junit.Before;
 import org.junit.Test;
 

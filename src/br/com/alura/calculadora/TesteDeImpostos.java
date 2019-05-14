@@ -1,5 +1,7 @@
 package br.com.alura.calculadora;
 
+import br.com.alura.calculadora.impostos.*;
+
 public class TesteDeImpostos {
 
     public static void main(String[] args) {
