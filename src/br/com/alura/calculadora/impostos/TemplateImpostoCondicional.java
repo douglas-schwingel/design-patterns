@@ -4,6 +4,13 @@ import br.com.alura.calculadora.Orcamento;
 
 public abstract class TemplateImpostoCondicional extends Imposto {
 
+    public TemplateImpostoCondicional() {
+    }
+
+    public TemplateImpostoCondicional(Imposto outroImposto) {
+        super(outroImposto);
+    }
+
     @Override
     public double calcula(Orcamento orcamento) {
         if(deveUsarMaximaTaxacao(orcamento)) return maximaTaxacao(orcamento) + calculoDoOutroImposto(orcamento);

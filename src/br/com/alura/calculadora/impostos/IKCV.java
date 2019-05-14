@@ -5,6 +5,12 @@ import br.com.alura.calculadora.Orcamento;
 
 public class IKCV extends TemplateImpostoCondicional {
 
+    public IKCV() {
+    }
+
+    public IKCV(Imposto outroImposto) {
+        super(outroImposto);
+    }
 
     private boolean temItemMaiorQue100Reais(Orcamento orcamento) {
         for (Item item : orcamento.getItens()) {

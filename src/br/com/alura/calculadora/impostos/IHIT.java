@@ -4,6 +4,13 @@ import br.com.alura.calculadora.Orcamento;
 
 public class IHIT extends TemplateImpostoCondicional {
 
+    public IHIT() {
+    }
+
+    public IHIT(Imposto outroImposto) {
+        super(outroImposto);
+    }
+
     @Override
     protected double minimaTaxacao(Orcamento orcamento) {
         return (orcamento.getValor() * 0.01) * orcamento.getItens().size();

@@ -4,6 +4,12 @@ import br.com.alura.calculadora.Orcamento;
 
 public class ICPP extends TemplateImpostoCondicional {
 
+    public ICPP() {
+    }
+
+    public ICPP(Imposto outroImposto) {
+        super(outroImposto);
+    }
 
     @Override
     public double minimaTaxacao(Orcamento orcamento) {

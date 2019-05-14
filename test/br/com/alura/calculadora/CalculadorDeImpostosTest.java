@@ -73,5 +73,25 @@ public class CalculadorDeImpostosTest {
         assertEquals(80, valor, 0.00001);
     }
 
+    @Test
+    public void deveCalcularImpostoMuitoAlto() {
+        Imposto imaEISS = new IMA(new ISS());
+        Orcamento orcamento = new Orcamento(500);
+
+        double valor = imaEISS.calcula(orcamento);
+        assertEquals(130, valor, 0.00001);
+    }
+
+    @Test
+    public void deveCalcularImpostosCondicionaisCompostos() {
+        Imposto ikcvEIcpp = new IKCV(new ICPP());
+        Orcamento orcamento = new Orcamento(500);
+
+        double valor = ikcvEIcpp.calcula(orcamento);
+
+        assertEquals(55, valor, 0.0001);
+
+    }
+
 
 }
