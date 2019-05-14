@@ -25,4 +25,11 @@ public class Orcamento {
     public List<Item> getItens() {
         return Collections.unmodifiableList(itens);
     }
+
+    public boolean temItem(String nomeItem) {
+        for (Item item : itens) {
+            if(item.getNome().contains(nomeItem)) return true;
+        }
+        return false;
+    }
 }
