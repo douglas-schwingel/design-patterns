@@ -27,9 +27,8 @@ public class Orcamento {
     }
 
     public boolean temItem(String nomeItem) {
-        String nomeItemLowercase = nomeItem.toLowerCase();
         for (Item item : itens) {
-            if(item.getNome().toLowerCase().contains(nomeItem)) return true;
+            if(item.getNome().contains(nomeItem)) return true;
         }
         return false;
     }
