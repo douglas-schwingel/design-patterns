@@ -6,7 +6,7 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.TimeZone;
 
-public class CriadorDeNotaFiscal {
+public class NotaFiscalBuilder {
 
     private String razaoSocial;
     private String cnpj;
@@ -16,28 +16,33 @@ public class CriadorDeNotaFiscal {
     private String dataDeEmissao;
     private StringBuilder builder = new StringBuilder();
 
-    public void paraEmpresa(String razaoSocial) {
+    public NotaFiscalBuilder paraEmpresa(String razaoSocial) {
         this.razaoSocial = razaoSocial;
+        return this;
     }
 
-    public void comCnpj(String cnpj) {
+    public NotaFiscalBuilder comCnpj(String cnpj) {
         this.cnpj = cnpj;
+        return this;
     }
 
-    public void comItem(ItemDaNota item) {
+    public NotaFiscalBuilder comItem(ItemDaNota item) {
         todosItens.add(item);
         valorBruto += item.getValor();
         impostos += item.getValor() * 0.05;
+        return this;
     }
 
-    public void naDataDeHoje() {
+    public NotaFiscalBuilder naDataDeHoje() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         dataDeEmissao = dateFormat.format(Calendar.getInstance().getTime());
+        return this;
     }
 
-    public void comObservacao(String observação) {
+    public NotaFiscalBuilder comObservacao(String observação) {
         builder.append(observação);
         builder.append("\n");
+        return this;
     }
 
     private String constroiObservacoes() {
