@@ -5,3 +5,4 @@
 - Template Method
 - Decorator
 - State
+- Builder
