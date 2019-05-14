@@ -17,4 +17,10 @@ public class Item {
     public double getValor() {
         return valor;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        obj = (Item) obj;
+        return this.nome.equals(((Item) obj).getNome());
+    }
 }

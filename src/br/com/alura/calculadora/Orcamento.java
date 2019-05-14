@@ -32,4 +32,19 @@ public class Orcamento {
         }
         return false;
     }
+
+    public boolean temItemRepetido() {
+        for (Item item : itens) {
+            int quantidade = 0;
+            for (int i = 0; i < this.itens.size(); i++) {
+                if(verificaSeSaoIguais(item, i)) quantidade++;
+            }
+            return quantidade >= 2;
+        }
+        return false;
+    }
+
+    private boolean verificaSeSaoIguais(Item item, int i) {
+        return item.equals(this.itens.get(i));
+    }
 }
