@@ -46,5 +46,22 @@ public class CalculadorDeImpostosTest {
         assertEquals(170, new IKCV().calcula(orcamento2), 0.001);
     }
 
+    @Test
+    public void deveEntenderIHITMinimo() {
+        Orcamento orcamentoIHIT = new Orcamento(500);
+        orcamentoIHIT.adicionaItem(new Item("Lapis", 100));
+        orcamentoIHIT.adicionaItem(new Item("Borracha", 15));
+        assertEquals(10, new IHIT().calcula(orcamentoIHIT), 0.001);
+    }
+
+    @Test
+    public void deveEntenderIHITMaximo() {
+        Orcamento orcamentoIHIT = new Orcamento(500);
+        orcamentoIHIT.adicionaItem(new Item("Lapis", 100));
+        orcamentoIHIT.adicionaItem(new Item("Borracha", 15));
+        orcamentoIHIT.adicionaItem(new Item("Lapis", 200));
+        assertEquals(165, new IHIT().calcula(orcamentoIHIT), 0.001);
+    }
+
 
 }
