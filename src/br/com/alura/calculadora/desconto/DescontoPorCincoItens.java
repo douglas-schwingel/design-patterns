@@ -2,20 +2,20 @@ package br.com.alura.calculadora.desconto;
 
 import br.com.alura.calculadora.Orcamento;
 
-public class DescontoPorCincoItens implements Desconto {
-    private Desconto proximo;
+public class DescontoPorCincoItens extends TemplateDesconto {
 
     @Override
-    public double desconta(Orcamento orcamento) {
-        if (orcamento.getItens().size() > 5) {
-            return orcamento.getValor() * 0.1;
-        } else {
-            return proximo.desconta(orcamento);
-        }
+    protected double valorDoDesconto(Orcamento orcamento) {
+        return orcamento.getValor() * 0.1;
     }
 
     @Override
-    public void setProximo(Desconto desconto) {
-        this.proximo = desconto;
+    protected boolean condicao(Orcamento orcamento) {
+        return orcamento.getItens().size() > 5;
+    }
+
+    @Override
+    public void setProximo(Desconto proximo) {
+        super.proximo = proximo;
     }
 }

@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e9bdc3-62e0-4f84-8e4f-62f177edd5de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/CalculadorDeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/CalculadorDeDesconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/CalculadorDeImpostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/CalculadorDeImpostos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/Desconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/Desconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/DescontoParaVendaCasada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoParaVendaCasada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/DescontoPorCincoItens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoPorCincoItens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/DescontoPorMaisDeQuinhentosReais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoPorMaisDeQuinhentosReais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/ICCC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICCC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/ICMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICMS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/ICPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/IHIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/IHIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/IKCV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/IKCV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/ISS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ISS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/Imposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/Imposto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/SemDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/SemDesconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/TemplateImpostoCondicional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/TemplateImpostoCondicional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/TesteDeDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/TesteDeDescontos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/TesteDeImpostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/TesteDeImpostos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/br/com/alura/calculadora/CalculadorDeDescontoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/br/com/alura/calculadora/CalculadorDeDescontoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/br/com/alura/calculadora/CalculadorDeImpostosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/br/com/alura/calculadora/CalculadorDeImpostosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/CalculadorDeDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/CalculadorDeDesconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoPorCincoItens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoPorCincoItens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICCC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICCC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ISS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ISS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/Imposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/Imposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/TemplateImpostoCondicional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/TemplateImpostoCondicional.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,70 +23,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/Desconto.java">
+        <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/TesteDeImpostosComplexos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoParaVendaCasada.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoPorCincoItens.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoPorMaisDeQuinhentosReais.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/SemDesconto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/TesteDeDescontos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/br/com/alura/calculadora/CalculadorDeDescontoTest.java">
+        <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/Imposto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -107,32 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/TemplateImpostoCondicional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/CalculadorDeDesconto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/CalculadorDeImpostos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -180,6 +92,15 @@
         <option value="$PROJECT_DIR$/src/br/com/alura/calculadora/Orcamento.java" />
         <option value="$PROJECT_DIR$/test/br/com/alura/calculadora/CalculadorDeImpostosTest.java" />
         <option value="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/TesteDeDescontos.java" />
+        <option value="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/CalculadorDeDesconto.java" />
+        <option value="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoPorCincoItens.java" />
+        <option value="$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/TemplateDesconto.java" />
+        <option value="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ISS.java" />
+        <option value="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICMS.java" />
+        <option value="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/TemplateImpostoCondicional.java" />
+        <option value="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICCC.java" />
+        <option value="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/TesteDeImpostosComplexos.java" />
+        <option value="$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/Imposto.java" />
       </list>
     </option>
   </component>
@@ -229,18 +150,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="alura" type="462c0819:PsiDirectoryNode" />
               <item name="calculadora" type="462c0819:PsiDirectoryNode" />
-              <item name="desconto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="calculadora" type="462c0819:PsiDirectoryNode" />
+              <item name="impostos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,7 +196,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculadorDeDescontoTest">
+  <component name="RunManager" selected="JUnit.CalculadorDeImpostosTest">
+    <configuration name="TesteDeImpostosComplexos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.calculadora.impostos.TesteDeImpostosComplexos" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.calculadora.impostos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculadorDeDescontoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design-patterns" />
       <extension name="coverage">
@@ -313,22 +236,6 @@
       <option name="PACKAGE_NAME" value="br.com.alura.calculadora" />
       <option name="MAIN_CLASS_NAME" value="br.com.alura.calculadora.CalculadorDeImpostosTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculadorDeImpostosTest.deveEntenderIHITMinimo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.calculadora.impostos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura.calculadora" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.calculadora.CalculadorDeImpostosTest" />
-      <option name="METHOD_NAME" value="deveEntenderIHITMinimo" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -367,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculadorDeDescontoTest" />
         <item itemvalue="JUnit.CalculadorDeImpostosTest" />
+        <item itemvalue="Application.TesteDeImpostosComplexos" />
+        <item itemvalue="JUnit.CalculadorDeDescontoTest" />
         <item itemvalue="JUnit.CalculadorDeImpostosTest.deveEntenderIKCVPMaximo" />
         <item itemvalue="JUnit.CalculadorDeImpostosTest.deveTerItemRepetido" />
-        <item itemvalue="JUnit.CalculadorDeImpostosTest.deveEntenderIHITMinimo" />
       </list>
     </recent_temporary>
   </component>
@@ -387,23 +294,11 @@
       <updated>1557795951350</updated>
       <workItem from="1557795954247" duration="1645000" />
       <workItem from="1557835412264" duration="2152000" />
-      <workItem from="1557848318870" duration="190000" />
+      <workItem from="1557848318870" duration="3672000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculadorDeImpostosTest - 2019.05.14 at 11h 53m 00s.xml">
-      <configuration name="CalculadorDeImpostosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculadorDeImpostosTest - 2019.05.14 at 11h 54m 06s.xml">
-      <configuration name="CalculadorDeImpostosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculadorDeImpostosTest - 2019.05.14 at 11h 57m 43s.xml">
-      <configuration name="CalculadorDeImpostosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculadorDeImpostosTest_deveEntenderIHITMinimo - 2019.05.14 at 11h 58m 50s.xml">
-      <configuration name="CalculadorDeImpostosTest.deveEntenderIHITMinimo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculadorDeImpostosTest_deveEntenderIHITMinimo - 2019.05.14 at 12h 00m 25s.xml">
       <configuration name="CalculadorDeImpostosTest.deveEntenderIHITMinimo" configurationId="JUnit" />
     </history-entry>
@@ -422,15 +317,27 @@
     <history-entry file="CalculadorDeImpostosTest - 2019.05.14 at 12h 09m 47s.xml">
       <configuration name="CalculadorDeImpostosTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculadorDeDescontoTest - 2019.05.14 at 12h 42m 08s.xml">
+      <configuration name="CalculadorDeDescontoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculadorDeImpostosTest_deveEntenderIKCVPMaximo - 2019.05.14 at 12h 42m 32s.xml">
+      <configuration name="CalculadorDeImpostosTest.deveEntenderIKCVPMaximo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculadorDeImpostosTest - 2019.05.14 at 12h 42m 41s.xml">
+      <configuration name="CalculadorDeImpostosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculadorDeDescontoTest - 2019.05.14 at 12h 42m 53s.xml">
+      <configuration name="CalculadorDeDescontoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11990000" />
+    <option name="totallyTimeSpent" value="15437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="53" width="1260" height="676" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2125206" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2125206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,8 +345,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3275862" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32906765" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32723948" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,7 +354,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31444243" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31444243" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3275862" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -460,37 +367,6 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.37106383" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3275862" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26436782" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3275862" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -600,90 +476,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/IKCV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICMS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ISS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICCC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/IHIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICPP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/Imposto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoParaVendaCasada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoPorMaisDeQuinhentosReais.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/TemplateImpostoCondicional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/br/com/alura/calculadora/CalculadorDeDescontoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -704,24 +500,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoPorCincoItens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/Desconto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/CalculadorDeDesconto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -735,13 +517,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/br/com/alura/calculadora/CalculadorDeImpostosTest.java">
+    <entry file="file://$PROJECT_DIR$/test/br/com/alura/calculadora/CalculadorDeDescontoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        <state relative-caret-position="450">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/br/com/alura/calculadora/CalculadorDeImpostosTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoParaVendaCasada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/TemplateDesconto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/DescontoPorCincoItens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/desconto/CalculadorDeDesconto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ISS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/IKCV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/IHIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICCC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="18" column="87" lean-forward="true" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/ICPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/TemplateImpostoCondicional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/TesteDeImpostosComplexos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadora/impostos/Imposto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>

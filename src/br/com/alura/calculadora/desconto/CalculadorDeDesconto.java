@@ -6,7 +6,7 @@ import br.com.alura.calculadora.desconto.*;
 public class CalculadorDeDesconto {
 
     public double calcula(Orcamento orcamento) {
-        Desconto desconto5Itens = new DescontoPorCincoItens();
+        DescontoPorCincoItens desconto5Itens = new DescontoPorCincoItens();
         Desconto desconto500Reais = new DescontoPorMaisDeQuinhentosReais();
         Desconto descontoVendaCasada = new DescontoParaVendaCasada();
         Desconto semDesconto = new SemDesconto();

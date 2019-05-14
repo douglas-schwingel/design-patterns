@@ -64,5 +64,14 @@ public class CalculadorDeImpostosTest {
         assertEquals(165, new IHIT().calcula(orcamentoIHIT), 0.001);
     }
 
+    @Test
+    public void deveEntenderImpostoComposto() {
+        Imposto issEIcms = new ISS(new ICMS());
+        Orcamento orcamento = new Orcamento(500);
+
+        double valor = issEIcms.calcula(orcamento);
+        assertEquals(80, valor, 0.00001);
+    }
+
 
 }
