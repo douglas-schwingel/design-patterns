@@ -10,3 +10,4 @@
 **********    Parte 2 *********************
 - Factory
 - Flyweight
+- Memento
