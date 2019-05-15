@@ -6,3 +6,4 @@
 - Decorator
 - State
 - Builder
+- Observer
