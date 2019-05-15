@@ -1,5 +1,6 @@
 package br.com.alura.calculadora.impostos;
 
+import br.com.alura.calculadora.Item;
 import br.com.alura.calculadora.Orcamento;
 
 public abstract class TemplateImpostoCondicional extends Imposto {
