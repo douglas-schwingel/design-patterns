@@ -2,9 +2,9 @@ package br.com.alura.calculadora;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
-import java.util.TimeZone;
 
 public class NotaFiscalBuilder {
 
@@ -15,6 +15,23 @@ public class NotaFiscalBuilder {
     private double impostos;
     private String dataDeEmissao;
     private StringBuilder builder = new StringBuilder();
+    private List<AcaoAposGerarNota> todasAcoesASeremExecutadas;
+
+    public NotaFiscalBuilder() {
+        this.todasAcoesASeremExecutadas = new ArrayList<AcaoAposGerarNota>();
+    }
+
+    public NotaFiscalBuilder(List<AcaoAposGerarNota> acoes) {
+        this.todasAcoesASeremExecutadas = acoes;
+    }
+
+    public NotaFiscalBuilder(AcaoAposGerarNota... acoes) {
+        this.todasAcoesASeremExecutadas = Arrays.asList(acoes);
+    }
+
+    public void adicionaAcao(AcaoAposGerarNota acao) {
+        todasAcoesASeremExecutadas.add(acao);
+    }
 
     public NotaFiscalBuilder paraEmpresa(String razaoSocial) {
         this.razaoSocial = razaoSocial;
@@ -50,6 +67,18 @@ public class NotaFiscalBuilder {
     }
 
     public NotaFiscal constroi() {
-        return new NotaFiscal(razaoSocial,cnpj,dataDeEmissao,valorBruto,impostos,todosItens,constroiObservacoes());
+        NotaFiscal nf = new NotaFiscal(razaoSocial,cnpj,dataDeEmissao,valorBruto,impostos,todosItens,constroiObservacoes());
+
+        for (AcaoAposGerarNota acao : todasAcoesASeremExecutadas) {
+            acao.executa(nf);
+        }
+
+        return nf;
     }
+
+
+
+
+
+
 }
