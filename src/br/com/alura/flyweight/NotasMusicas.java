@@ -5,19 +5,12 @@ import java.util.Map;
 
 public class NotasMusicas {
 
-    private static Map<String, Nota> notas = new HashMap<String, Nota>();
-
-    static {
-        notas.put("do", new Do());
-        notas.put("re", new Re());
-        notas.put("mi", new Mi());
-        notas.put("fa", new Fa());
-        notas.put("sol", new Sol());
-        notas.put("la", new La());
-        notas.put("si", new Si());
-    }
+    private static Map<String, Nota> notas = new HashMap<>();
 
     public Nota pega(String nota) {
+        if(!notas.containsKey(nota.toLowerCase())){
+            this.notas = new NotasFactory().instaciaNota(nota.toLowerCase());
+        }
         return notas.get(nota.toLowerCase());
     }
 
