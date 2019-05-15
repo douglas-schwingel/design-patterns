@@ -6,3 +6,7 @@
 - Decorator
 - State
 - Builder
+- Observer
+**********    Parte 2 *********************
+- Factory
+
