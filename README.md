@@ -7,6 +7,7 @@
 - State
 - Builder
 - Observer
+<<<<<<< HEAD
 **********    Parte 2 *********************
 - Factory
 
