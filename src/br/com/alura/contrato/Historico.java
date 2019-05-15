@@ -14,6 +14,4 @@ public class Historico {
     public void adiciona(Estado estado) {
         estados.add(estado);
     }
-
-
 }

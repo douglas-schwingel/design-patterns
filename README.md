@@ -11,3 +11,4 @@
 - Factory
 - Flyweight
 - Memento
+- Interpreter
