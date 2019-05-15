@@ -12,7 +12,8 @@ public class RaizQuadrada implements Expressao {
     @Override
     public int avalia() {
         double valorDaExpressao = expressao.avalia();
-        int sqrt = (int)Math.sqrt(valorDaExpressao);
-        return sqrt;
+        double sqrt = Math.sqrt(valorDaExpressao);
+        int sqrtInt = (int)Math.round(sqrt);
+        return sqrtInt;
     }
 }
