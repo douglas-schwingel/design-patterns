@@ -14,3 +14,5 @@
 - Interpreter
 - Command
 - Visitor
+- Bridge
+- Adapter

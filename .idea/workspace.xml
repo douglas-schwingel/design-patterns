@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3e9bdc3-62e0-4f84-8e4f-62f177edd5de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/calculadoracientifica/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/calculadoracientifica/Programa.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3e9bdc3-62e0-4f84-8e4f-62f177edd5de" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadoracientifica/ImpressoraPreFixaVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
+            <state relative-caret-position="270">
               <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding>
                 <element signature="e#1058#1059#0" expanded="true" />
@@ -390,7 +388,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48222000" />
+    <option name="totallyTimeSpent" value="48500000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,7 +401,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="53" width="1260" height="676" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22322899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -414,7 +411,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32906765" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53382087" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53382087" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +419,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31444243" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31444243" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32723948" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -962,7 +959,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/alura/calculadoracientifica/ImpressoraPreFixaVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
+        <state relative-caret-position="270">
           <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
           <folding>
             <element signature="e#1058#1059#0" expanded="true" />
