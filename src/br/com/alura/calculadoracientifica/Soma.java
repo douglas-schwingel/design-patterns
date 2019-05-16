@@ -17,4 +17,17 @@ public class Soma implements Expressao {
         int valorDaDireita = direita.avalia();
         return valorDaEsquerda + valorDaDireita;
     }
+
+    public Expressao getDireita() {
+        return direita;
+    }
+
+    public Expressao getEsquerda() {
+        return esquerda;
+    }
+
+    @Override
+    public void aceita(Visitor visitor) {
+        visitor.visitaSoma(this);
+    }
 }

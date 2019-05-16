@@ -12,7 +12,7 @@ public class TestaAcoes {
                 new EnviadorDeSms(),
                 new Multiplicador(5.5)};
 //        List<AcaoAposGerarNota> acoes = new ArrayList<>();
-//        acoes.add(new Impressora());
+//        acoes.add(new ImpressoraVisitor());
 //        acoes.add(new EnviadorDeSms());
         NotaFiscalBuilder builder = new NotaFiscalBuilder(acoes);
         builder.paraEmpresa("Caelum").comCnpj("112.345.678/0001-12").naDataDeHoje()

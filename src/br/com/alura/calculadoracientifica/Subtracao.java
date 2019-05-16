@@ -16,4 +16,19 @@ public class Subtracao implements Expressao {
         int valorDaDireita = direita.avalia();
         return valorDaEsquerda - valorDaDireita;
     }
+
+    @Override
+    public void aceita(Visitor visitor) {
+        visitor.visitaSubstracao(this);
+    }
+
+    public Expressao getDireita() {
+        return direita;
+    }
+
+    public Expressao getEsquerda() {
+        return esquerda;
+    }
+
+
 }

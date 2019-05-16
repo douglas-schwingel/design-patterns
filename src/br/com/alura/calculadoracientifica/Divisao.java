@@ -18,4 +18,17 @@ public class Divisao implements Expressao {
         if (valorDaDireita == 0) throw new RuntimeException("Não pode divir por zero!");
         return valorDaEsquerda / valorDaDireita;
     }
+
+    @Override
+    public void aceita(Visitor visitor) {
+        visitor.visitaDivisao(this);
+    }
+
+    public Expressao getEsquerda() {
+        return this.esquerda;
+    }
+
+    public Expressao getDireita() {
+        return this.direita;
+    }
 }

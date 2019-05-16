@@ -12,4 +12,23 @@ public class Numero implements Expressao {
     public int avalia() {
         return this.num;
     }
+
+    @Override
+    public void aceita(Visitor visitor) {
+        visitor.visitaNumero(this);
+    }
+
+    @Override
+    public Expressao getEsquerda() {
+        return null;
+    }
+
+    @Override
+    public Expressao getDireita() {
+        return null;
+    }
+
+    public int getNumero() {
+        return this.num;
+    }
 }
