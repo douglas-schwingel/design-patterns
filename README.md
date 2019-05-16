@@ -12,3 +12,4 @@
 - Flyweight
 - Memento
 - Interpreter
+- Command
