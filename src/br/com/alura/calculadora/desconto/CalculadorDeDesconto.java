@@ -1,7 +1,6 @@
 package br.com.alura.calculadora.desconto;
 
 import br.com.alura.calculadora.Orcamento;
-import br.com.alura.calculadora.desconto.*;
 
 public class CalculadorDeDesconto {
 

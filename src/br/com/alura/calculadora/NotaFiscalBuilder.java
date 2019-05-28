@@ -10,7 +10,7 @@ public class NotaFiscalBuilder {
 
     private String razaoSocial;
     private String cnpj;
-    private List<ItemDaNota> todosItens = new ArrayList<ItemDaNota>();
+    private List<ItemDaNota> todosItens = new ArrayList<>();
     private double valorBruto;
     private double impostos;
     private String dataDeEmissao;

@@ -4,6 +4,9 @@ public class TesteNotaFiscal {
 
     public static void main(String[] args) {
 
+//        NotaFiscal notaFiscal = new NotaFiscal("BalasJuquinha", "12.345.678/0001-12",
+//                "12/12/06",200,50,null,"obbservado");
+
         NotaFiscalBuilder builder = new NotaFiscalBuilder()
                 .paraEmpresa("Caelum")
                 .comCnpj("12.345.678/0001-12")

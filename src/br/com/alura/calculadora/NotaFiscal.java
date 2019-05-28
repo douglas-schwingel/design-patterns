@@ -1,6 +1,5 @@
 package br.com.alura.calculadora;
 
-import java.util.Calendar;
 import java.util.Collections;
 import java.util.List;
 
